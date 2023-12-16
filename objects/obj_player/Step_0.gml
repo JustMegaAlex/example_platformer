@@ -25,5 +25,5 @@ if ((hsp > 0) and !right_free) or ((hsp < 0) and !left_free)
 dir = point_direction(0, 0, hsp, vsp)
 
 if abs(hsp) or abs(vsp)
-	scr_move_contact_obj(hsp, vsp, obj_block)
+	scr_move_coord_contact_obj(hsp, vsp, obj_block)
 
